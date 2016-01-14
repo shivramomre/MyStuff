@@ -16,5 +16,20 @@
     <Filter Include="Source Files\CppBasics">
       <UniqueIdentifier>{245b1848-8233-4ca7-8a77-181d3b70969d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\DataStructure">
+      <UniqueIdentifier>{44a873e7-f307-48f7-9140-c489123ff2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STL">
+      <UniqueIdentifier>{acd7967a-f070-4329-9df3-6657375161d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DesignPattern">
+      <UniqueIdentifier>{9740af05-0355-428f-9598-9bb9bfe972ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{4273c155-e148-4917-8a12-5f22ccf5a6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CodingPractice">
+      <UniqueIdentifier>{e5ab7d24-b0ed-4ced-910c-ae19ce706ad9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
