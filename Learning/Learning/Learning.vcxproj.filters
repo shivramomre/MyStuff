@@ -31,10 +31,22 @@
     <Filter Include="Source Files\CodingPractice">
       <UniqueIdentifier>{e5ab7d24-b0ed-4ced-910c-ae19ce706ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\TestFramework">
+      <UniqueIdentifier>{2813a49a-134c-494a-9e23-a0e31ad06f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestFramework\GoogleTest">
+      <UniqueIdentifier>{c41990af-bd63-4917-a11d-ad22cd8899b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestFramework\CppUnit">
+      <UniqueIdentifier>{3ec2e524-968f-495c-817f-c6b174f4e41f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files\CodingPractice</Filter>
+    <ClCompile Include="GoogleTest.cpp">
+      <Filter>Source Files\TestFramework\GoogleTest</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
