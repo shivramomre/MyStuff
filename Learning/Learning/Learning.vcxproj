@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Test.h" />
+    <ClInclude Include="Test1.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Test1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C4ABF5AD-4413-4C2E-B464-C1E6DC091A78}</ProjectGuid>
