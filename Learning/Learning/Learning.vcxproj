@@ -143,9 +143,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Timepass.h" />
+    <ClInclude Include="TPsachin.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Timepass.cpp" />
+    <ClCompile Include="TPsachin.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

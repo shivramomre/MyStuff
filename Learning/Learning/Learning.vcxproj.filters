@@ -18,9 +18,15 @@
     <ClInclude Include="Timepass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TPsachin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Timepass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TPsachin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
