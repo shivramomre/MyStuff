@@ -17,4 +17,14 @@
       <UniqueIdentifier>{245b1848-8233-4ca7-8a77-181d3b70969d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\CppBasics</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
