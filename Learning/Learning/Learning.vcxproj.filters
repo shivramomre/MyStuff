@@ -17,20 +17,4 @@
       <UniqueIdentifier>{245b1848-8233-4ca7-8a77-181d3b70969d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="DimondProblem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestClass.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="DimondProblem.cpp">
-      <Filter>Source Files\CppBasics</Filter>
-    </ClCompile>
-    <ClCompile Include="TestClass.cpp">
-      <Filter>Source Files\CppBasics</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
