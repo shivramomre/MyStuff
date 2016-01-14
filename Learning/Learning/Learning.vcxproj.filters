@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\CppBasics">
+      <UniqueIdentifier>{245b1848-8233-4ca7-8a77-181d3b70969d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructure">
+      <UniqueIdentifier>{44a873e7-f307-48f7-9140-c489123ff2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STL">
+      <UniqueIdentifier>{acd7967a-f070-4329-9df3-6657375161d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DesignPattern">
+      <UniqueIdentifier>{9740af05-0355-428f-9598-9bb9bfe972ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{4273c155-e148-4917-8a12-5f22ccf5a6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CodingPractice">
+      <UniqueIdentifier>{e5ab7d24-b0ed-4ced-910c-ae19ce706ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestFramework">
+      <UniqueIdentifier>{2813a49a-134c-494a-9e23-a0e31ad06f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestFramework\GoogleTest">
+      <UniqueIdentifier>{c41990af-bd63-4917-a11d-ad22cd8899b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestFramework\CppUnit">
+      <UniqueIdentifier>{3ec2e524-968f-495c-817f-c6b174f4e41f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GoogleTest.cpp">
+      <Filter>Source Files\TestFramework\GoogleTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GoogleTestInfo.txt">
+      <Filter>Source Files\TestFramework\GoogleTest</Filter>
+    </Text>
   </ItemGroup>
 </Project>
