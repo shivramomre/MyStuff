@@ -2,6 +2,7 @@
 *.sdf
 *.suo
 .suo
+*.tlog
 Learning/x64/
 Learning/Learning/x64/
 Learning/Learning/Release/
