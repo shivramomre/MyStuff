@@ -1,2 +1,6 @@
 *.opendb
 *.sdf
+*.suo
+.suo
+Learning/x64/
+Learning/Learning/x64/
