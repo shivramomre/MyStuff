@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DimondProblem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DimondProblem.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C4ABF5AD-4413-4C2E-B464-C1E6DC091A78}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
