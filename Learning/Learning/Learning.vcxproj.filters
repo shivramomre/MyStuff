@@ -32,4 +32,9 @@
       <UniqueIdentifier>{e5ab7d24-b0ed-4ced-910c-ae19ce706ad9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\CodingPractice</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
