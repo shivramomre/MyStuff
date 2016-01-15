@@ -31,9 +31,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dependency\gtest\src\gtest-all.cc" />
+    <ClCompile Include="DS_Problem.cpp" />
     <ClCompile Include="GoogleTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MySinglyLinkedList.cpp" />
+    <ClCompile Include="Test_MySinglyLinkedList.cpp" />
+    <ClCompile Include="Test_DS_Problem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DS_Problem.h" />
+    <ClInclude Include="MySinglyLinkedList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C4ABF5AD-4413-4C2E-B464-C1E6DC091A78}</ProjectGuid>
@@ -124,8 +131,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\git\Learning\Learning\Dependency\gtest;$(IncludePath)</IncludePath>
-    <ExecutablePath>C:\git\Learning\Learning\Dependency\gtest;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\git\Learning;C:\git\Learning\Learning\Dependency\gtest;$(IncludePath)</IncludePath>
+    <ExecutablePath>C:\git\Learning;C:\git\Learning\Learning\Dependency\gtest;$(ExecutablePath)</ExecutablePath>
+    <ReferencePath>C:\git\Learning;$(ReferencePath)</ReferencePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -211,6 +219,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\git\Learning;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

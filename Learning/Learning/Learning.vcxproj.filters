@@ -39,6 +39,9 @@
     <Filter Include="Source Files\DataStructure\LinkedList">
       <UniqueIdentifier>{0ef23237-71d7-4e95-a4ef-bac8f78bf323}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\DataStructure\Problem">
+      <UniqueIdentifier>{fc4281f5-5cc7-49e9-979f-a6045c4a10e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="GoogleTestInfo.txt">
@@ -58,5 +61,22 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DS_Problem.cpp">
+      <Filter>Source Files\DataStructure\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_DS_Problem.cpp">
+      <Filter>Source Files\DataStructure\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_MySinglyLinkedList.cpp">
+      <Filter>Source Files\DataStructure\LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MySinglyLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_Problem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
