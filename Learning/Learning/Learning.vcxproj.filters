@@ -36,6 +36,9 @@
     <Filter Include="Source Files\TestFramework\CppUnit">
       <UniqueIdentifier>{3ec2e524-968f-495c-817f-c6b174f4e41f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\DataStructure\LinkedList">
+      <UniqueIdentifier>{0ef23237-71d7-4e95-a4ef-bac8f78bf323}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="GoogleTestInfo.txt">
@@ -48,6 +51,12 @@
     </ClCompile>
     <ClCompile Include="GoogleTest.cpp">
       <Filter>Source Files\TestFramework\GoogleTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MySinglyLinkedList.cpp">
+      <Filter>Source Files\DataStructure\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

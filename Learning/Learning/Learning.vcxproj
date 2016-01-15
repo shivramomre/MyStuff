@@ -32,6 +32,8 @@
   <ItemGroup>
     <ClCompile Include="Dependency\gtest\src\gtest-all.cc" />
     <ClCompile Include="GoogleTest.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MySinglyLinkedList.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C4ABF5AD-4413-4C2E-B464-C1E6DC091A78}</ProjectGuid>
