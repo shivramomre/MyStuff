@@ -42,6 +42,12 @@
     <Filter Include="Source Files\DataStructure\Problem">
       <UniqueIdentifier>{fc4281f5-5cc7-49e9-979f-a6045c4a10e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\DataStructure\Stack">
+      <UniqueIdentifier>{92fa0b39-e9b6-49dc-884d-a5784bad6491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructure\Queue">
+      <UniqueIdentifier>{58c6e126-47ee-441d-bf5e-667c417a3c30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="GoogleTestInfo.txt">
@@ -58,9 +64,6 @@
     <ClCompile Include="MySinglyLinkedList.cpp">
       <Filter>Source Files\DataStructure\LinkedList</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DS_Problem.cpp">
       <Filter>Source Files\DataStructure\Problem</Filter>
     </ClCompile>
@@ -70,12 +73,42 @@
     <ClCompile Include="Test_MySinglyLinkedList.cpp">
       <Filter>Source Files\DataStructure\LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="Test_CppUnit.cpp">
+      <Filter>Source Files\TestFramework\CppUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\TestFramework\CppUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStack.cpp">
+      <Filter>Source Files\DataStructure\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_MyStack.cpp">
+      <Filter>Source Files\DataStructure\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStackUsingList.cpp">
+      <Filter>Source Files\DataStructure\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MySinglyLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DS_Problem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_CppUnit.h">
+      <Filter>Source Files\TestFramework\CppUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStackUsingList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,61 +1,23 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
-int my_main()
-{
-	while (1)
-	{
-		cout << "Below are the things you can do with this project." << endl;
-		cout << "Choose the option" << endl;
-
-		cout << "1. DataStructure" << endl;
-		cout << "0. Exit" << endl;
-
-		int val;
-		cin >> val;
-
-		if (val == 1)
-		{
-			cout << "Below are the things you can do with Datastructure." << endl;
-			cout << "1. SinglyLinkedList";
-			cout << "0. Exit" << endl;
-			cout << "Choose the option" << endl;
-
-			int dsVal;
-			cin >> dsVal;
-
-			if(dsVal == 1)
-			{
-				
-			}
-			else if (val == 0)
-			{
-				break;
-			}
-			else
-			{
-				cout << "Invalid input provided. You want to continue again ? y/n : ";
-				char choice;
-				cin >> choice;
-
-				if (choice == 'n' || choice == 'N')
-					break;
-			}
-		}
-		else if (val == 0)
-		{
-			break;
-		}
-		else
-		{
-			cout << "Invalid input provided. You want to continue again ? y/n : ";
-			char choice;
-			cin >> choice;
-
-			if (choice == 'n' || choice == 'N')
-				break;
-		}
-	}
-	return 0;
-}
+//#include <cppunit/CompilerOutputter.h>
+//#include <cppunit/extensions/TestFactoryRegistry.h>
+//#include <cppunit/ui/text/TestRunner.h>
+//
+//#include "Test_CppUnit.h"
+//
+//CPPUNIT_TEST_SUITE_REGISTRATION(Test_CppUnit);
+//
+//int main(int argc, char* argv[])
+//{
+//	// get the top-level suite of tests (registry is not the Win32 registry)
+//	CppUnit::Test * suite = CppUnit::TestFactoryRegistry::getRegistry().makeTest();
+//	// add the test to the list of tests to run
+//	CppUnit::TextUi::TestRunner runner;
+//	runner.addTest(suite);
+//	// change the default outputter to a compiler error format outputter
+//	runner.setOutputter(new CppUnit::CompilerOutputter(&runner.result(), std::cerr));
+//	// run the tests
+//	bool wasSuccessful = runner.run();
+//	// return error code 1 if one or more tests failed
+//	return wasSuccessful ? 0 : 1;
+//
+//}

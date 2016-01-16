@@ -33,13 +33,22 @@
     <ClCompile Include="Dependency\gtest\src\gtest-all.cc" />
     <ClCompile Include="DS_Problem.cpp" />
     <ClCompile Include="GoogleTest.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LinkedList_main.cpp" />
     <ClCompile Include="MySinglyLinkedList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyStack.cpp" />
+    <ClCompile Include="MyStackUsingList.cpp" />
+    <ClCompile Include="Test_CppUnit.cpp" />
     <ClCompile Include="Test_MySinglyLinkedList.cpp" />
     <ClCompile Include="Test_DS_Problem.cpp" />
+    <ClCompile Include="Test_MyStack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseHeader.h" />
     <ClInclude Include="DS_Problem.h" />
+    <ClInclude Include="MyStack.h" />
+    <ClInclude Include="MyStackUsingList.h" />
+    <ClInclude Include="Test_CppUnit.h" />
     <ClInclude Include="MySinglyLinkedList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -227,7 +236,12 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
